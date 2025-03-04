@@ -22,6 +22,7 @@ const people = [
         name: 'Subscriptions',
         role: 'Bocs Subscriptions',
         imageUrl: bocs.src,
+        bio: 'Bocs is an advanced subscription box platform developed by the founders of CRU, built on over a decade of experience delivering tailored eCommerce and subscription solutions. Bocs provides businesses with the essential tools to efficiently manage subscriptions, reduce churn, and automate key processes—all while giving subscribers full control through intuitive self-service options.',
         xUrl: '#',
         linkedinUrl: '#',
       },
@@ -146,9 +147,9 @@ export default function Example() {
         <div className="bg-white py-24 md:py-32 lg:py-40">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 lg:px-8 xl:grid-cols-3">
             <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Website & eCommerce</h2>
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">The Ecosystem</h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-                Each platform is at the top of its category ensuring it focuses solely on its capabilities. Forget All-in-one systems that try to do everything and welcome a tech stack that has been tried and tested with Australia top wineries.
+            Each platform is at the top of its category ensuring it focuses solely on its capabilities. Forget All-in-one systems that try to do everything and welcome a tech stack that has been tried and tested with Australia&apos;s top wineries.
             </p>
             </div>
             <ul
@@ -157,7 +158,7 @@ export default function Example() {
             >
             {people.map((person) => (
                 <li key={person.name}>
-                <img alt="" src={person.imageUrl} className="aspect-3/2 w-full rounded-2xl object-cover" />
+                {/* <img alt="" src={person.imageUrl} className="aspect-3/2 w-full rounded-2xl object-cover" /> */}
                 <h3 className="mt-6 text-lg/8 font-semibold text-gray-900">{person.name}</h3>
                 <p className="text-base/7 text-gray-600">{person.role}</p>
                 <p className="mt-4 text-base/7 text-gray-600">{person.bio}</p>

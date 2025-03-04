@@ -14,6 +14,7 @@ import hv from '@/images/howardvineyard.png'
 import sw from '@/images/sidewood.png'
 import montys from '@/images/montys.png'
 import hp from '@/images/howardpark.png'
+import lane from '@/images/laneVineYard.jpg'
 
 export default function Example() {
   const stats = [
@@ -91,63 +92,63 @@ export default function Example() {
       </div>
       <div className="bg-gray-900 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg/8 font-semibold text-white">Trusted by the world&apos;s most innovative teams</h2>
-          <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+          <h2 className="text-center text-lg/8 font-semibold text-white">Trusted By Australia&apos;s Top Wineries</h2>
+          <div className="mx-auto mt-10 flex flex-wrap justify-center max-w-lg items-center gap-x-8 gap-y-14 sm:max-w-xl  sm:gap-x-10 lg:mx-0 lg:max-w-none">
             <img
               alt="Yering"
               src={yering.src}
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="Langi"
               src={langi.src}
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="Xanadu"
               src={xanadu.src}
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="TheLane"
               src={thelane.src}
               width={158}
               height={48}
-              className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
              <img
               alt="SideWood"
               src={sw.src}
               width={158}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="HowardVineyard"
               src={hv.src}
               width={158}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="Montys"
               src={montys.src}
               width={158}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
             <img
               alt="HowardPark"
               src={hp.src}
               width={70}
               height={48}
-              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+              className="w-[47%] md:w-[28%] lg:w-[17.35%] max-h-12 w-full object-contain"
             />
           </div>
         </div>

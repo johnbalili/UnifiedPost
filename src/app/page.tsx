@@ -14,7 +14,6 @@ import hv from '@/images/howardvineyard.png'
 import sw from '@/images/sidewood.png'
 import montys from '@/images/montys.png'
 import hp from '@/images/howardpark.png'
-import lane from '@/images/laneVineYard.jpg'
 
 export default function Example() {
   const stats = [

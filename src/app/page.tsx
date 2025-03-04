@@ -6,6 +6,14 @@ import { List, ListItem } from '@/components/List'
 import { FadeIn } from '@/components/FadeIn'
 import { StylizedImage } from '@/components/StylizedImage'
 import imageLaptop from '@/images/laptop.jpg'
+import yering from '@/images/yering.png'
+import langi from '@/images/langi.png'
+import xanadu from '@/images/xanadu.png'
+import thelane from '@/images/thelane.png'
+import hv from '@/images/howardvineyard.png'
+import sw from '@/images/sidewood.png'
+import montys from '@/images/montys.png'
+import hp from '@/images/howardpark.png'
 
 export default function Example() {
   const stats = [
@@ -83,40 +91,61 @@ export default function Example() {
       </div>
       <div className="bg-gray-900 py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <h2 className="text-center text-lg/8 font-semibold text-white">Trusted by the world’s most innovative teams</h2>
+          <h2 className="text-center text-lg/8 font-semibold text-white">Trusted by the world&apos;s most innovative teams</h2>
           <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
             <img
-              alt="Transistor"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/transistor-logo-white.svg"
+              alt="Yering"
+              src={yering.src}
               width={158}
               height={48}
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="Reform"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/reform-logo-white.svg"
+              alt="Langi"
+              src={langi.src}
               width={158}
               height={48}
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="Tuple"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/tuple-logo-white.svg"
+              alt="Xanadu"
+              src={xanadu.src}
               width={158}
               height={48}
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
             />
             <img
-              alt="SavvyCal"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/savvycal-logo-white.svg"
+              alt="TheLane"
+              src={thelane.src}
               width={158}
               height={48}
               className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
             />
-            <img
-              alt="Statamic"
-              src="https://tailwindui.com/plus-assets/img/logos/158x48/statamic-logo-white.svg"
+             <img
+              alt="SideWood"
+              src={sw.src}
               width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <img
+              alt="HowardVineyard"
+              src={hv.src}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <img
+              alt="Montys"
+              src={montys.src}
+              width={158}
+              height={48}
+              className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            />
+            <img
+              alt="HowardPark"
+              src={hp.src}
+              width={70}
               height={48}
               className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
             />
@@ -126,7 +155,7 @@ export default function Example() {
       <div className="bg-white py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Unlock a Proven, High-Performance Tech Ecosystem for Wineries</h2>
+            <h2 className="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Unlock a Proven, High-Performance<br/>Tech Ecosystem for Wineries</h2>
             <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
               <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
                 <p className="text-xl/8 text-gray-600">
@@ -203,7 +232,7 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <Container className="bg-white pb-24 sm:pb-32">
+      <Container className="bg-white pb-34 sm:pb-42">
         <div className="lg:flex lg:items-center lg:justify-end">
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
@@ -215,19 +244,19 @@ export default function Example() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Website & eCommerce" link="#">
+            <ListItem title="Website & eCommerce">
             Endless features and flexibility. Take advantage of open-source customisability and a vast library of community-built extensions to handle nearly any scenario.
             </ListItem>
-            <ListItem title="Powerful Subscriptions tools" link="#">
+            <ListItem title="Powerful Subscriptions tools" >
             All the tools you need to create, design and deploy a powerful subscription offering. A revolutionary new platform focused on flexible subscription box offerings with all the management tools required to efficiently run a subscription club.
             </ListItem>
-            <ListItem title="Robust CRM" link="#">
+            <ListItem title="Robust CRM">
             Seamless data synchronisation across connected platforms of the ecosystem to build a 360 degree view of your customer, sales and product data across online, cellar door, hospitality and booking channels.
             </ListItem>
-            <ListItem title="Digital Wallet" link="#">
+            <ListItem title="Digital Wallet">
             Instantly reach your wine club members with order updates, renewal reminders, and exclusive club content. Welcome members to your cellar door automatically using Geo-fencing. Push notifications ensure immediate delivery to their mobile devices, driving unmatched open and click rates.
             </ListItem>
-            <ListItem title="Point Of Sale" link="#">
+            <ListItem title="Point Of Sale">
             The heart of your cellar door operation. Powerful data capture and integration with the ecosystem as well as efficient use processing orders 
             </ListItem>
           </List>
